@@ -1216,7 +1216,6 @@ h4 { font-size: 1.1rem; font-family: var(--font-sans); font-weight: 600; }
   .hero { padding: 32px 0 40px; }
   .summary-section { margin-top: -20px; }
   .gallery-img { width: 220px; height: 220px; }
-  .qr-image { width: 350px; height: 350px; }
   .documents-section { padding: 40px 0; }
   .donation-section { padding: 40px 0; }
   .story-section, .photos-section, .impact-section, .share-section { padding: 40px 0; }
@@ -1325,4 +1324,39 @@ h4 { font-size: 1.1rem; font-family: var(--font-sans); font-weight: 600; }
   border-radius: 20px;
   font-size: 0.85rem;
   pointer-events: none;
+}
+/* style.css - ADD THIS AT THE END OF THE FILE */
+
+/* Larger QR code for mobile devices */
+@media (max-width: 768px) {
+  .qr-image {
+    width: 350px !important;
+    height: 350px !important;
+    max-width: 100%;
+  }
+  
+  .qr-card {
+    max-width: 400px;
+  }
+  
+  .qr-image-wrapper {
+    padding: 12px;
+  }
+}
+
+/* For very small phones, ensure QR still fits */
+@media (max-width: 400px) {
+  .qr-image {
+    width: 300px !important;
+    height: 300px !important;
+  }
+  
+  .qr-card {
+    max-width: 340px;
+    padding: 16px;
+  }
+  
+  .qr-image-wrapper {
+    padding: 8px;
+  }
 }
