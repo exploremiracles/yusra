@@ -1216,6 +1216,7 @@ h4 { font-size: 1.1rem; font-family: var(--font-sans); font-weight: 600; }
   .hero { padding: 32px 0 40px; }
   .summary-section { margin-top: -20px; }
   .gallery-img { width: 220px; height: 220px; }
+  .qr-image { width: 350px; height: 350px; }
   .documents-section { padding: 40px 0; }
   .donation-section { padding: 40px 0; }
   .story-section, .photos-section, .impact-section, .share-section { padding: 40px 0; }
