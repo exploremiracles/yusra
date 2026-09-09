@@ -493,7 +493,7 @@ documentFullscreenOverlay.innerHTML = `
     <i class="fa-solid fa-xmark"></i>
   </button>
   <img class="document-fullscreen-image" src="" alt="Fullscreen document view">
-  <span class="document-fullscreen-zoom-hint">Click to zoom • Scroll to zoom • Esc to close</span>
+  <span class="document-fullscreen-zoom-hint">Zoom</span>
 `;
 document.body.appendChild(documentFullscreenOverlay);
 
