@@ -300,9 +300,10 @@ const nextDocBtn = document.getElementById('nextDocBtn');
 const docFullscreenBtn = document.getElementById('docFullscreenBtn');
 
 const documentSources = [
+  'doc4.jpg',
   'doc1.jpg',
   'doc2.jpg',
-  'doc3.jpg',
+   'doc3.jpg',
 ];
 
 let currentDocIndex = 0;
